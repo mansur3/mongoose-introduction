@@ -1,0 +1,2034 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Mansur Dewan> cd desktop
+PS C:\Users\Mansur Dewan\desktop> cd masai
+PS C:\Users\Mansur Dewan\desktop\masai> cd unit_3
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3> cd week_4
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-09-2021  09.23 AM                day_1
+d-----        21-09-2021  02.24 PM                day_2
+d-----        20-09-2021  11.35 AM                elective
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> cd day-2
+cd : Cannot find path 'C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day-2' because it does not exist.
+At line:1 char:1
++ cd day-2
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mansur..._3\week_4\day-2:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> cd day_2
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21-09-2021  02.26 PM                mongoose
+-a----        21-09-2021  11.13 AM           5915 contest.js
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> cd mongoose
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\mongoose> cd ..
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21-09-2021  02.26 PM                connectMongoose
+-a----        21-09-2021  11.13 AM           5915 contest.js
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> cd connectMongoose
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> npm install mongoose
+npm ERR! code ENOSELF
+npm ERR! Refusing to install package with name "mongoose" under a package
+npm ERR! also called "mongoose". Did you name your project the same
+npm ERR! as the dependency you're installing?
+npm ERR!
+npm ERR! For more information, see:
+npm ERR!     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Mansur Dewan\AppData\Roaming\npm-cache\_logs\2021-09-21T08_59_26_655Z-debug.log
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> cd ..
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> cd ..
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> cd ..
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3> cd ..
+PS C:\Users\Mansur Dewan\desktop\masai> cd ..
+PS C:\Users\Mansur Dewan\desktop> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14-09-2021  06.05 PM                assignment
+d-----        20-09-2021  06.52 PM                cult-fit-project
+d-----        14-09-2021  06.17 PM                Elective
+d-----        21-09-2021  02.30 PM                expressWithMongo
+d-----        23-08-2021  08.51 AM                mansur_fw11_049
+d-----        01-09-2021  09.40 AM                Masai
+d-----        12-09-2021  01.41 PM                mini-project
+d-----        17-09-2021  04.48 PM                mongo
+d-----        11-09-2021  07.25 PM                Web API
+-a----        20-08-2021  10.03 PM           1005 Firefox.lnk
+-a----        07-09-2021  08.08 PM           2402 GitHub Desktop.lnk
+-a----        16-09-2021  04.51 PM             91 import file to the mongo db.txt
+-a----        17-09-2021  04.44 PM             96 js_tutorial.txt
+-a----        17-09-2021  08.11 PM          90942 mongoAdvanced.txt
+-a----        16-09-2021  07.36 PM           2426 MongoDBCompass.lnk
+-a----        17-09-2021  10.11 PM          59110 movie.json
+-a----        01-09-2021  08.46 AM           2234 Slack.lnk
+-a----        17-09-2021  03.20 PM         117871 users.json
+-a----        20-08-2021  02.35 PM           1421 Visual Studio Code.lnk
+-a----        31-08-2021  01.17 PM             42 Wifi mac address.txt
+-a----        04-09-2021  08.16 PM           1952 Zoom.lnk
+
+
+PS C:\Users\Mansur Dewan\desktop> cd expressWithMongo
+PS C:\Users\Mansur Dewan\desktop\expressWithMongo> npm init -y
+Wrote to C:\Users\Mansur Dewan\desktop\expressWithMongo\package.json:
+
+{
+  "name": "expressWithMongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS C:\Users\Mansur Dewan\desktop\expressWithMongo> cd ..
+PS C:\Users\Mansur Dewan\desktop> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14-09-2021  06.05 PM                assignment
+d-----        20-09-2021  06.52 PM                cult-fit-project
+d-----        14-09-2021  06.17 PM                Elective
+d-----        21-09-2021  02.31 PM                expressWithMongo
+d-----        23-08-2021  08.51 AM                mansur_fw11_049
+d-----        01-09-2021  09.40 AM                Masai
+d-----        12-09-2021  01.41 PM                mini-project
+d-----        17-09-2021  04.48 PM                mongo
+d-----        11-09-2021  07.25 PM                Web API
+-a----        20-08-2021  10.03 PM           1005 Firefox.lnk
+-a----        07-09-2021  08.08 PM           2402 GitHub Desktop.lnk
+-a----        16-09-2021  04.51 PM             91 import file to the mongo db.txt
+-a----        17-09-2021  04.44 PM             96 js_tutorial.txt
+-a----        17-09-2021  08.11 PM          90942 mongoAdvanced.txt
+-a----        16-09-2021  07.36 PM           2426 MongoDBCompass.lnk
+-a----        17-09-2021  10.11 PM          59110 movie.json
+-a----        01-09-2021  08.46 AM           2234 Slack.lnk
+-a----        17-09-2021  03.20 PM         117871 users.json
+-a----        20-08-2021  02.35 PM           1421 Visual Studio Code.lnk
+-a----        31-08-2021  01.17 PM             42 Wifi mac address.txt
+-a----        04-09-2021  08.16 PM           1952 Zoom.lnk
+
+
+PS C:\Users\Mansur Dewan\desktop> cd masai
+PS C:\Users\Mansur Dewan\desktop\masai> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14-09-2021  06.01 PM                .git
+d-----        21-08-2021  12.03 AM                25-06-2021 Second day
+d-----        21-08-2021  12.03 AM                First day in masai
+d-----        21-08-2021  12.03 AM                Masai ISA agreement
+d-----        08-08-2021  06.02 PM                new
+d-----        21-08-2021  12.03 AM                online_practice
+d-----        21-08-2021  12.03 AM                Skillathon
+d-----        21-08-2021  12.03 AM                unit_1
+d-----        21-08-2021  10.44 AM                unit_2
+d-----        20-09-2021  09.23 AM                unit_3
+
+
+PS C:\Users\Mansur Dewan\desktop\masai> cd unit_3
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        04-09-2021  12.19 PM                week_1
+d-----        12-09-2021  02.11 PM                week_2
+d-----        18-09-2021  02.17 PM                week_3
+d-----        21-09-2021  09.27 AM                week_4
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3> cd week_
+cd : Cannot find path 'C:\Users\Mansur Dewan\desktop\masai\unit_3\week_' because it does not exist.
+At line:1 char:1
++ cd week_
++ ~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Mansur...ai\unit_3\week_:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3> cd week_4
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20-09-2021  09.23 AM                day_1
+d-----        21-09-2021  02.28 PM                day_2
+d-----        20-09-2021  11.35 AM                elective
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4> cd day_2
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21-09-2021  04.45 PM                connectMongoose
+-a----        21-09-2021  11.13 AM           5915 contest.js
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2> cd connectMongoose
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> ls
+
+
+    Directory: C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21-09-2021  02.32 PM                node_modules
+-a----        21-09-2021  04.47 PM            229 index.js
+-a----        21-09-2021  02.32 PM          22388 package-lock.json
+-a----        21-09-2021  04.45 PM            340 package.json
+-a----        21-09-2021  04.39 PM           2320 server.js
+
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> mongodb
+mongodb : The term 'mongodb' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ mongodb
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (mongodb:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> mongo
+MongoDB shell version v5.0.2
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("1fe56183-d3d8-4783-8426-6cbe17d69c56") }
+MongoDB server version: 5.0.2
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+We recommend you begin using "mongosh".
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2021-09-16T19:37:03.294+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+MongoDB Enterprise > show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+movie   0.000GB
+users   0.000GB
+web11   0.000GB
+MongoDB Enterprise > use web11
+switched to db web11
+MongoDB Enterprise > db.product.find({})
+MongoDB Enterprise > db.product.find({})
+MongoDB Enterprise > ^C
+bye
+PS C:\Users\Mansur Dewan\desktop\masai\unit_3\week_4\day_2\connectMongoose> mongo
+MongoDB shell version v5.0.2
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d987040e-cced-4f19-9be0-717d8bca66a4") }
+MongoDB server version: 5.0.2
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+We recommend you begin using "mongosh".
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2021-09-16T19:37:03.294+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+MongoDB Enterprise > use web11
+switched to db web11
+MongoDB Enterprise > db.product.find({}).pretty()
+MongoDB Enterprise > use users
+switched to db users
+MongoDB Enterprise > db.createCollection("users")
+{
+        "ok" : 0,
+        "errmsg" : "Collection already exists. NS: users.users",
+        "code" : 48,
+        "codeName" : "NamespaceExists"
+}
+MongoDB Enterprise > db.createCollection("users")
+{
+        "ok" : 0,
+        "errmsg" : "Collection already exists. NS: users.users",
+        "code" : 48,
+        "codeName" : "NamespaceExists"
+}
+MongoDB Enterprise > db.createCollection("movie")
+{ "ok" : 1 }
+MongoDB Enterprise > db.movie.find({"movie_name" : {$eq : "Riptide"}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c51"),
+        "id" : 3,
+        "movie_name" : "Riptide",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18628
+}
+MongoDB Enterprise > db.movie.find({"movie_name" : {$ne : "Riptide"}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c4f"),
+        "id" : 1,
+        "movie_name" : "Cherry Falls",
+        "movie_genre" : "Comedy|Horror|Mystery",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c52"),
+        "id" : 4,
+        "movie_name" : "Blood Shack",
+        "movie_genre" : "Horror",
+        "production_year" : 1994,
+        "budget" : 14877
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c54"),
+        "id" : 6,
+        "movie_name" : "Gentleman Jim",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 9644
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c56"),
+        "id" : 8,
+        "movie_name" : "Isle, The (Seom)",
+        "movie_genre" : "Drama",
+        "production_year" : 1999,
+        "budget" : 15081
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5e"),
+        "id" : 16,
+        "movie_name" : "The Pee-Wee Herman Show on Broadway",
+        "movie_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16806
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5f"),
+        "id" : 17,
+        "movie_name" : "Carnival in Flanders (La kermesse héroïque)",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1999,
+        "budget" : 10092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c61"),
+        "id" : 19,
+        "movie_name" : "Sommer der Gaukler, Der",
+        "movie_genre" : "Comedy",
+        "production_year" : 2000,
+        "budget" : 13736
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({"budget" : {$gte : 15000}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c51"),
+        "id" : 3,
+        "movie_name" : "Riptide",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18628
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c56"),
+        "id" : 8,
+        "movie_name" : "Isle, The (Seom)",
+        "movie_genre" : "Drama",
+        "production_year" : 1999,
+        "budget" : 15081
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5e"),
+        "id" : 16,
+        "movie_name" : "The Pee-Wee Herman Show on Broadway",
+        "movie_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16806
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c66"),
+        "id" : 24,
+        "movie_name" : "They All Lie",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18731
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c67"),
+        "id" : 25,
+        "movie_name" : "Billy Two Hats (Lady and the Outlaw, The)",
+        "movie_genre" : "Romance|Western",
+        "production_year" : 1990,
+        "budget" : 15334
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c68"),
+        "id" : 26,
+        "movie_name" : "Law and Order",
+        "movie_genre" : "Action|Romance|Western",
+        "production_year" : 1990,
+        "budget" : 17790
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c69"),
+        "id" : 27,
+        "movie_name" : "Kiss of the Damned",
+        "movie_genre" : "Horror|Romance|Thriller",
+        "production_year" : 1994,
+        "budget" : 19194
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6a"),
+        "id" : 28,
+        "movie_name" : "Kajaki",
+        "movie_genre" : "Adventure|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16934
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6d"),
+        "id" : 31,
+        "movie_name" : "Fabled",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2011,
+        "budget" : 18265
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c70"),
+        "id" : 34,
+        "movie_name" : "Romance",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 1991,
+        "budget" : 15136
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({"budget" : {$gt : 15000}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c51"),
+        "id" : 3,
+        "movie_name" : "Riptide",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18628
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c56"),
+        "id" : 8,
+        "movie_name" : "Isle, The (Seom)",
+        "movie_genre" : "Drama",
+        "production_year" : 1999,
+        "budget" : 15081
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5e"),
+        "id" : 16,
+        "movie_name" : "The Pee-Wee Herman Show on Broadway",
+        "movie_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16806
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c66"),
+        "id" : 24,
+        "movie_name" : "They All Lie",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18731
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c67"),
+        "id" : 25,
+        "movie_name" : "Billy Two Hats (Lady and the Outlaw, The)",
+        "movie_genre" : "Romance|Western",
+        "production_year" : 1990,
+        "budget" : 15334
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c68"),
+        "id" : 26,
+        "movie_name" : "Law and Order",
+        "movie_genre" : "Action|Romance|Western",
+        "production_year" : 1990,
+        "budget" : 17790
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c69"),
+        "id" : 27,
+        "movie_name" : "Kiss of the Damned",
+        "movie_genre" : "Horror|Romance|Thriller",
+        "production_year" : 1994,
+        "budget" : 19194
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6a"),
+        "id" : 28,
+        "movie_name" : "Kajaki",
+        "movie_genre" : "Adventure|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16934
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6d"),
+        "id" : 31,
+        "movie_name" : "Fabled",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2011,
+        "budget" : 18265
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c70"),
+        "id" : 34,
+        "movie_name" : "Romance",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 1991,
+        "budget" : 15136
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({"budget" : {$lt : 15000}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c4f"),
+        "id" : 1,
+        "movie_name" : "Cherry Falls",
+        "movie_genre" : "Comedy|Horror|Mystery",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c52"),
+        "id" : 4,
+        "movie_name" : "Blood Shack",
+        "movie_genre" : "Horror",
+        "production_year" : 1994,
+        "budget" : 14877
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c54"),
+        "id" : 6,
+        "movie_name" : "Gentleman Jim",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 9644
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5f"),
+        "id" : 17,
+        "movie_name" : "Carnival in Flanders (La kermesse héroïque)",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1999,
+        "budget" : 10092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c61"),
+        "id" : 19,
+        "movie_name" : "Sommer der Gaukler, Der",
+        "movie_genre" : "Comedy",
+        "production_year" : 2000,
+        "budget" : 13736
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c64"),
+        "id" : 22,
+        "movie_name" : "Prophecy, The",
+        "movie_genre" : "Fantasy|Horror|Mystery",
+        "production_year" : 1993,
+        "budget" : 9115
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c65"),
+        "id" : 23,
+        "movie_name" : "Norbit",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1995,
+        "budget" : 12479
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6b"),
+        "id" : 29,
+        "movie_name" : "RocknRolla",
+        "movie_genre" : "Action|Crime",
+        "production_year" : 2007,
+        "budget" : 10804
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6c"),
+        "id" : 30,
+        "movie_name" : "Shadow People",
+        "movie_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 10571
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6e"),
+        "id" : 32,
+        "movie_name" : "Secret of the Wings",
+        "movie_genre" : "Adventure|Animation|Children|Fantasy",
+        "production_year" : 1998,
+        "budget" : 13313
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6f"),
+        "id" : 33,
+        "movie_name" : "Dead in Tombstone",
+        "movie_genre" : "Action|Fantasy|Horror",
+        "production_year" : 2009,
+        "budget" : 14595
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c71"),
+        "id" : 35,
+        "movie_name" : "Wog Boy, The",
+        "movie_genre" : "Comedy",
+        "production_year" : 1994,
+        "budget" : 12861
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c72"),
+        "id" : 36,
+        "movie_name" : "Believers, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2002,
+        "budget" : 12099
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c76"),
+        "id" : 40,
+        "movie_name" : "Honeymoons",
+        "movie_genre" : "Comedy",
+        "production_year" : 2011,
+        "budget" : 13306
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c78"),
+        "id" : 42,
+        "movie_name" : "Frozen Ground, The",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2010,
+        "budget" : 14316
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7b"),
+        "id" : 45,
+        "movie_name" : "Hey Arnold! The Movie",
+        "movie_genre" : "Adventure|Animation|Children|Comedy",
+        "production_year" : 1996,
+        "budget" : 9422
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7c"),
+        "id" : 46,
+        "movie_name" : "Don't Eat the Pictures: Sesame Street at the Metropolitan Museum of Art",
+        "movie_genre" : "Children",
+        "production_year" : 1999,
+        "budget" : 11235
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({"budget" : {$lte : 15000}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c4f"),
+        "id" : 1,
+        "movie_name" : "Cherry Falls",
+        "movie_genre" : "Comedy|Horror|Mystery",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c52"),
+        "id" : 4,
+        "movie_name" : "Blood Shack",
+        "movie_genre" : "Horror",
+        "production_year" : 1994,
+        "budget" : 14877
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c54"),
+        "id" : 6,
+        "movie_name" : "Gentleman Jim",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 9644
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5f"),
+        "id" : 17,
+        "movie_name" : "Carnival in Flanders (La kermesse héroïque)",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1999,
+        "budget" : 10092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c61"),
+        "id" : 19,
+        "movie_name" : "Sommer der Gaukler, Der",
+        "movie_genre" : "Comedy",
+        "production_year" : 2000,
+        "budget" : 13736
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c64"),
+        "id" : 22,
+        "movie_name" : "Prophecy, The",
+        "movie_genre" : "Fantasy|Horror|Mystery",
+        "production_year" : 1993,
+        "budget" : 9115
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c65"),
+        "id" : 23,
+        "movie_name" : "Norbit",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1995,
+        "budget" : 12479
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6b"),
+        "id" : 29,
+        "movie_name" : "RocknRolla",
+        "movie_genre" : "Action|Crime",
+        "production_year" : 2007,
+        "budget" : 10804
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6c"),
+        "id" : 30,
+        "movie_name" : "Shadow People",
+        "movie_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 10571
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6e"),
+        "id" : 32,
+        "movie_name" : "Secret of the Wings",
+        "movie_genre" : "Adventure|Animation|Children|Fantasy",
+        "production_year" : 1998,
+        "budget" : 13313
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6f"),
+        "id" : 33,
+        "movie_name" : "Dead in Tombstone",
+        "movie_genre" : "Action|Fantasy|Horror",
+        "production_year" : 2009,
+        "budget" : 14595
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c71"),
+        "id" : 35,
+        "movie_name" : "Wog Boy, The",
+        "movie_genre" : "Comedy",
+        "production_year" : 1994,
+        "budget" : 12861
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c72"),
+        "id" : 36,
+        "movie_name" : "Believers, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2002,
+        "budget" : 12099
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c76"),
+        "id" : 40,
+        "movie_name" : "Honeymoons",
+        "movie_genre" : "Comedy",
+        "production_year" : 2011,
+        "budget" : 13306
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c78"),
+        "id" : 42,
+        "movie_name" : "Frozen Ground, The",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2010,
+        "budget" : 14316
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7b"),
+        "id" : 45,
+        "movie_name" : "Hey Arnold! The Movie",
+        "movie_genre" : "Adventure|Animation|Children|Comedy",
+        "production_year" : 1996,
+        "budget" : 9422
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7c"),
+        "id" : 46,
+        "movie_name" : "Don't Eat the Pictures: Sesame Street at the Metropolitan Museum of Art",
+        "movie_genre" : "Children",
+        "production_year" : 1999,
+        "budget" : 11235
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({$and : [{"production_year" : {$gt : 2000}},{"budget" : {$gt : 10000}}]}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6a"),
+        "id" : 28,
+        "movie_name" : "Kajaki",
+        "movie_genre" : "Adventure|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16934
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6b"),
+        "id" : 29,
+        "movie_name" : "RocknRolla",
+        "movie_genre" : "Action|Crime",
+        "production_year" : 2007,
+        "budget" : 10804
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6d"),
+        "id" : 31,
+        "movie_name" : "Fabled",
+        "movie_genre" : "Drama|Mystery|Thriller",
+        "production_year" : 2011,
+        "budget" : 18265
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6f"),
+        "id" : 33,
+        "movie_name" : "Dead in Tombstone",
+        "movie_genre" : "Action|Fantasy|Horror",
+        "production_year" : 2009,
+        "budget" : 14595
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c72"),
+        "id" : 36,
+        "movie_name" : "Believers, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2002,
+        "budget" : 12099
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c73"),
+        "id" : 37,
+        "movie_name" : "Homefront",
+        "movie_genre" : "Action|Crime|Thriller",
+        "production_year" : 2012,
+        "budget" : 15264
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c76"),
+        "id" : 40,
+        "movie_name" : "Honeymoons",
+        "movie_genre" : "Comedy",
+        "production_year" : 2011,
+        "budget" : 13306
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c78"),
+        "id" : 42,
+        "movie_name" : "Frozen Ground, The",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2010,
+        "budget" : 14316
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c79"),
+        "id" : 43,
+        "movie_name" : "Defenders of Riga",
+        "movie_genre" : "Action|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16366
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7a"),
+        "id" : 44,
+        "movie_name" : "Faster Pussycat! Kill! Kill!",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_year" : 2001,
+        "budget" : 19724
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({$or : [{"production_year" : {$gt : 2000}},{"budget" : {$gt : 10000}}]}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c4f"),
+        "id" : 1,
+        "movie_name" : "Cherry Falls",
+        "movie_genre" : "Comedy|Horror|Mystery",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c51"),
+        "id" : 3,
+        "movie_name" : "Riptide",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18628
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c52"),
+        "id" : 4,
+        "movie_name" : "Blood Shack",
+        "movie_genre" : "Horror",
+        "production_year" : 1994,
+        "budget" : 14877
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c56"),
+        "id" : 8,
+        "movie_name" : "Isle, The (Seom)",
+        "movie_genre" : "Drama",
+        "production_year" : 1999,
+        "budget" : 15081
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5e"),
+        "id" : 16,
+        "movie_name" : "The Pee-Wee Herman Show on Broadway",
+        "movie_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16806
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5f"),
+        "id" : 17,
+        "movie_name" : "Carnival in Flanders (La kermesse héroïque)",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1999,
+        "budget" : 10092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c61"),
+        "id" : 19,
+        "movie_name" : "Sommer der Gaukler, Der",
+        "movie_genre" : "Comedy",
+        "production_year" : 2000,
+        "budget" : 13736
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({$nor : [{"production_year" : {$eq : 2000}},{"budget" : {$eq : 10000}}]}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c4f"),
+        "id" : 1,
+        "movie_name" : "Cherry Falls",
+        "movie_genre" : "Comedy|Horror|Mystery",
+        "production_year" : 1991,
+        "budget" : 11917
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c51"),
+        "id" : 3,
+        "movie_name" : "Riptide",
+        "movie_genre" : "Drama",
+        "production_year" : 1994,
+        "budget" : 18628
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c52"),
+        "id" : 4,
+        "movie_name" : "Blood Shack",
+        "movie_genre" : "Horror",
+        "production_year" : 1994,
+        "budget" : 14877
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c54"),
+        "id" : 6,
+        "movie_name" : "Gentleman Jim",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 9644
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c55"),
+        "id" : 7,
+        "movie_name" : "Emma",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2011,
+        "budget" : 16375
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c56"),
+        "id" : 8,
+        "movie_name" : "Isle, The (Seom)",
+        "movie_genre" : "Drama",
+        "production_year" : 1999,
+        "budget" : 15081
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c58"),
+        "id" : 10,
+        "movie_name" : "Strange Brew",
+        "movie_genre" : "Comedy",
+        "production_year" : 2003,
+        "budget" : 13237
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5e"),
+        "id" : 16,
+        "movie_name" : "The Pee-Wee Herman Show on Broadway",
+        "movie_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16806
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5f"),
+        "id" : 17,
+        "movie_name" : "Carnival in Flanders (La kermesse héroïque)",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 1999,
+        "budget" : 10092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c64"),
+        "id" : 22,
+        "movie_name" : "Prophecy, The",
+        "movie_genre" : "Fantasy|Horror|Mystery",
+        "production_year" : 1993,
+        "budget" : 9115
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({"production_year" : {$in : [2000, 2001, 2002, 2004, 2005, 2006, 2007, 2008, 2009, 2010]}}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c53"),
+        "id" : 5,
+        "movie_name" : "Hotel",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 15775
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c57"),
+        "id" : 9,
+        "movie_name" : "Private Hell 36",
+        "movie_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2010,
+        "budget" : 14226
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c61"),
+        "id" : 19,
+        "movie_name" : "Sommer der Gaukler, Der",
+        "movie_genre" : "Comedy",
+        "production_year" : 2000,
+        "budget" : 13736
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c62"),
+        "id" : 20,
+        "movie_name" : "Saltmen of Tibet, The (Salzmänner von Tibet, Die)",
+        "movie_genre" : "Documentary",
+        "production_year" : 2002,
+        "budget" : 19188
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c63"),
+        "id" : 21,
+        "movie_name" : "Last Legion, The",
+        "movie_genre" : "Action|Adventure|Fantasy|War",
+        "production_year" : 2007,
+        "budget" : 16715
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6a"),
+        "id" : 28,
+        "movie_name" : "Kajaki",
+        "movie_genre" : "Adventure|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16934
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6b"),
+        "id" : 29,
+        "movie_name" : "RocknRolla",
+        "movie_genre" : "Action|Crime",
+        "production_year" : 2007,
+        "budget" : 10804
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c6f"),
+        "id" : 33,
+        "movie_name" : "Dead in Tombstone",
+        "movie_genre" : "Action|Fantasy|Horror",
+        "production_year" : 2009,
+        "budget" : 14595
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c72"),
+        "id" : 36,
+        "movie_name" : "Believers, The",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 2002,
+        "budget" : 12099
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c74"),
+        "id" : 38,
+        "movie_name" : "Judgment in Berlin",
+        "movie_genre" : "Crime|Drama",
+        "production_year" : 2000,
+        "budget" : 15759
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c78"),
+        "id" : 42,
+        "movie_name" : "Frozen Ground, The",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2010,
+        "budget" : 14316
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c79"),
+        "id" : 43,
+        "movie_name" : "Defenders of Riga",
+        "movie_genre" : "Action|Drama|War",
+        "production_year" : 2007,
+        "budget" : 16366
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c7a"),
+        "id" : 44,
+        "movie_name" : "Faster Pussycat! Kill! Kill!",
+        "movie_genre" : "Action|Crime|Drama",
+        "production_year" : 2001,
+        "budget" : 19724
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c81"),
+        "id" : 51,
+        "movie_name" : "King Kong Escapes (Kingu Kongu no gyakushû)",
+        "movie_genre" : "Action|Adventure|Sci-Fi",
+        "production_year" : 2004,
+        "budget" : 16129
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c82"),
+        "id" : 52,
+        "movie_name" : "Honor Among Lovers",
+        "movie_genre" : "Drama",
+        "production_year" : 2002,
+        "budget" : 9462
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c83"),
+        "id" : 53,
+        "movie_name" : "American Ninja 2: The Confrontation",
+        "movie_genre" : "Action|Adventure",
+        "production_year" : 2005,
+        "budget" : 15940
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c85"),
+        "id" : 55,
+        "movie_name" : "Bedlam",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2010,
+        "budget" : 9096
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c88"),
+        "id" : 58,
+        "movie_name" : "James Dean Remembered",
+        "movie_genre" : "Documentary",
+        "production_year" : 2006,
+        "budget" : 12941
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({}).sort({"movie_name" : 1}).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45e2d"),
+        "id" : 479,
+        "movie_name" : "$ (Dollars)",
+        "movie_genre" : "Comedy|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 19355
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d1b"),
+        "id" : 205,
+        "movie_name" : "13 Sins",
+        "movie_genre" : "Horror|Thriller",
+        "production_year" : 1992,
+        "budget" : 19536
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45ce1"),
+        "id" : 147,
+        "movie_name" : "36 Quai des Orfèvres (Department 36)",
+        "movie_genre" : "Action|Crime|Drama|Thriller",
+        "production_year" : 2010,
+        "budget" : 17216
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45de2"),
+        "id" : 404,
+        "movie_name" : "44500 Max",
+        "movie_genre" : "Documentary",
+        "production_year" : 1988,
+        "budget" : 14147
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d9a"),
+        "id" : 332,
+        "movie_name" : "47 Ronin, The (Genroku Chûshingura)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 18727
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45e0e"),
+        "id" : 448,
+        "movie_name" : "A Gun for Jennifer",
+        "movie_genre" : "Crime|Drama|Thriller",
+        "production_year" : 2000,
+        "budget" : 10999
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45db8"),
+        "id" : 362,
+        "movie_name" : "Abbott and Costello Meet the Keystone Kops",
+        "movie_genre" : "Comedy",
+        "production_year" : 2006,
+        "budget" : 12134
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c60"),
+        "id" : 18,
+        "movie_name" : "Abraham's Valley (Vale Abraão)",
+        "movie_genre" : "Drama",
+        "production_year" : 1966,
+        "budget" : 13092
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45ca8"),
+        "id" : 90,
+        "movie_name" : "Absence of Malice",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 1989,
+        "budget" : 15957
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d07"),
+        "id" : 185,
+        "movie_name" : "Against All Flags",
+        "movie_genre" : "Action|Adventure|Drama|Romance",
+        "production_year" : 2002,
+        "budget" : 11540
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d06"),
+        "id" : 184,
+        "movie_name" : "All Relative",
+        "movie_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 11427
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45dfe"),
+        "id" : 432,
+        "movie_name" : "All the Pretty Horses",
+        "movie_genre" : "Drama|Romance|Western",
+        "production_year" : 1990,
+        "budget" : 18180
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d96"),
+        "id" : 328,
+        "movie_name" : "Allnighter, The",
+        "movie_genre" : "Comedy|Romance",
+        "production_year" : 2010,
+        "budget" : 19362
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45e31"),
+        "id" : 483,
+        "movie_name" : "Alphabet Killer, The",
+        "movie_genre" : "Crime",
+        "production_year" : 1997,
+        "budget" : 18139
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45ded"),
+        "id" : 415,
+        "movie_name" : "Altiplano",
+        "movie_genre" : "Drama",
+        "production_year" : 1993,
+        "budget" : 11673
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d95"),
+        "id" : 327,
+        "movie_name" : "America the Beautiful 2: The Thin Commandments ",
+        "movie_genre" : "Documentary",
+        "production_year" : 1991,
+        "budget" : 19616
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c83"),
+        "id" : 53,
+        "movie_name" : "American Ninja 2: The Confrontation",
+        "movie_genre" : "Action|Adventure",
+        "production_year" : 2005,
+        "budget" : 15940
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c50"),
+        "id" : 2,
+        "movie_name" : "American Rhapsody, An",
+        "movie_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15171
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45dbf"),
+        "id" : 369,
+        "movie_name" : "And Now My Love (Toute une vie)",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 1992,
+        "budget" : 11216
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45d91"),
+        "id" : 323,
+        "movie_name" : "And So It Is",
+        "movie_genre" : "Drama",
+        "production_year" : 2010,
+        "budget" : 16753
+}
+Type "it" for more
+MongoDB Enterprise > db.movie.find({}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+        "id" : 11,
+        "movie_name" : "Duets",
+        "movie_genre" : "Comedy|Drama",
+        "production_year" : 1985,
+        "budget" : 18498
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+        "id" : 12,
+        "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+        "movie_genre" : "Drama",
+        "production_year" : 2000,
+        "budget" : 16213
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+        "id" : 13,
+        "movie_name" : "Possessed",
+        "movie_genre" : "Drama|Horror",
+        "production_year" : 2011,
+        "budget" : 17709
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+        "id" : 14,
+        "movie_name" : "Loving Father, A (Aime ton père)",
+        "movie_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 15740
+}
+{
+        "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+        "id" : 15,
+        "movie_name" : "Remains of the Day, The",
+        "movie_genre" : "Drama|Romance",
+        "production_year" : 2001,
+        "budget" : 18720
+}
+MongoDB Enterprise > db.movie.find({}).limit(10).map(or more.pretty()
+... MongoDB Enterprise > db.movie.find({}).skip(10).limit(5).pretty()
+... {
+...         "_id" : ObjectId("6149d25417cedba6d4c45c59"),
+...         "id" : 11,
+...         "movie_name" : "Duets",
+...         "movie_genre" : "Comedy|Drama",
+...         "production_year" : 1985,
+...         "budget" : 18498
+... }
+... {
+...         "_id" : ObjectId("6149d25417cedba6d4c45c5a"),
+...         "id" : 12,
+...         "movie_name" : "Entertaining Angels: The Dorothy Day Story",
+...         "movie_genre" : "Drama",
+...         "production_year" : 2000,
+...         "budget" : 16213
+... }
+... {
+...         "_id" : ObjectId("6149d25417cedba6d4c45c5b"),
+...         "id" : 13,
+...         "movie_name" : "Possessed",
+...         "movie_genre" : "Drama|Horror",
+...         "production_year" : 2011,
+...         "budget" : 17709
+... }
+... {
+...         "_id" : ObjectId("6149d25417cedba6d4c45c5c"),
+...         "id" : 14,
+...         "movie_name" : "Loving Father, A (Aime ton père)",
+...         "movie_genre" : "Drama",
+...         "production_year" : 2013,
+...         "budget" : 15740
+... }
+... {
+...         "_id" : ObjectId("6149d25417cedba6d4c45c5d"),
+...         "id" : 15,
+...         "movie_name" : "Remains of the Day, The",
+...         "movie_genre" : "Drama|Romance",
+...         "production_year" : 2001,
+...         "budget" : 18720
+... }
+... MongoDB Enterprise > db.movie.find({}).limit(10).map(.pretty()
